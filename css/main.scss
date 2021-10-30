@@ -1,0 +1,38 @@
+header{
+  height: 70px;
+}
+.header{
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 20px ;
+}
+.main{
+  display: flex;
+  width: 90%;
+}
+.image{
+  width: 50%;
+}
+.message{
+  margin-top: 70px;
+  margin-left: 100px;
+}
+h2{
+    line-height: 60px;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+p{
+  line-height: 30px;
+  color:#222;
+}
+.main img{
+  width: 100%;
+  margin: 70px 20px;
+}
+input{
+  background-color: #000;
+  color:#fff;
+  padding: 15px;
+  font-size: 10px;
+}
