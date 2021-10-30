@@ -36,3 +36,42 @@ input{
   padding: 15px;
   font-size: 10px;
 }
+
+$tab: 680px; // タブレット
+$sp: 480px;  // スマホ
+@mixin tab {
+  @media (max-width: ($tab)) {
+    @content;
+  }
+}
+  @mixin sp {
+  @media (max-width: ($sp)) {
+    @content;
+  }
+}
+.main{
+  @include tab {
+    display: block;
+    flex-direction: column;
+  };
+  @include sp{
+    display: block;
+    flex-direction: column;
+  }
+}
+header{
+  margin-bottom: 0;
+  height: 20px;
+}
+.main img{
+  margin: 0;
+  padding: 20px;
+}
+.image{
+  width: auto;
+  margin-top: 10px;
+}
+.message{
+  margin: 10px;
+  letter-spacing: 0.1em;
+}

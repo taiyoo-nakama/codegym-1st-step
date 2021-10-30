@@ -44,3 +44,37 @@ input {
   padding: 15px;
   font-size: 10px;
 }
+
+@media (max-width: 680px) {
+  .main {
+    display: block;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .main {
+    display: block;
+    flex-direction: column;
+  }
+}
+
+header {
+  margin-bottom: 0;
+  height: 20px;
+}
+
+.main img {
+  margin: 0;
+  padding: 20px;
+}
+
+.image {
+  width: auto;
+  margin-top: 10px;
+}
+
+.message {
+  margin: 10px;
+  letter-spacing: 0.1em;
+}
